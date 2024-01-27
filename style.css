@@ -431,7 +431,7 @@ padding: 50px 100px;
    background-repeat: no-repeat; */
    
     display: flex;
-    /* justify-content: space-between; */
+    
     width: 100%;
   
    
@@ -513,9 +513,7 @@ height: 640x;
     background-color:black;
     color: rgba(255, 255, 255, 0.6);
 }
-.last{
-width: 100%;    
-}
+
 .last>span{
     display: flex;
 }
