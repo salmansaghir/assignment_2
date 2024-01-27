@@ -1,0 +1,521 @@
+@font-face {
+    font-family: futurak;
+    src: url(font/futurak.ttf);
+    @font-face {
+        font-family: butler;
+        src: url(font/butler/butler_bold);
+    }
+}
+body{
+    margin: 0px;
+}
+.header{
+    width: 100%;
+    background-color: black;
+}
+.logo>img{
+    width: 160px;
+    padding: 10px 100px;
+    vertical-align: middle;
+    /* margin: 0px 0px 0px 70px; */
+    /* background-color: red; */
+  
+}
+.menu>li{
+    display: inline-block;
+    color: white;
+    /* background-color: 
+    green;  */
+    margin-right: 20px;
+    padding: 10px;
+   
+  
+}
+.logo,.navbar{
+    display: inline-block;
+}
+.logo{
+   
+    width: 30%;
+}
+.navbar{
+    text-align: right;
+   
+    /* vertical-align: baseline; */
+    width: 60%;
+}
+.btn_get>button{
+    border: none;
+    /* padding: 15px 5px; */
+    border-radius: 35px;
+
+}
+.btnone{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white !important;
+    padding: 20px;
+    
+}
+.btntwo{
+    background-color:  #ed1c24;
+    color: white;
+    border: 1px solid  #ed1c24 !important;
+    padding: 12px !important;
+}
+.menu{
+    display: inline-block;
+}
+.btn_get{
+    display: inline-block;
+}
+.btntwo>i{
+    background-color:white;
+    color: #ed1c24;
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 100px ;
+    margin-right: 10px;
+}
+.slidbar{
+    width: 100%;
+    height: 500px;
+}
+.slidbar>img{
+    width: 100%;
+    height: 100%;
+}
+.intro{
+    width: 100%;
+    height: 500%;
+    background-color: black;
+    /* padding: 20px 100px; */
+}
+.intro>.content>h2{
+    margin: 0%;
+    color: white;
+}
+.intro>.content>p{
+    color: white;
+}
+.content{
+    text-align: center;
+    padding: 50px;
+}
+.content>h2>span{
+    font-family: futurak;
+    letter-spacing: 2px;
+}
+.content>h2{
+    font-size: 40px;
+}
+.content>p{
+    color: rgba(255, 255, 255, 0.7);
+
+}
+.card_logo{
+    background-color: white;
+    width: 200px;
+    text-align: center;
+    padding: 30px 40px;
+
+
+}
+.card_logo>img{
+    width: 100%;
+
+}
+.card_btn>button{
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.7);
+    border: 1px solid white !important;
+    padding: 10px 30px;
+    border-radius: 40px;
+}
+.card_btn{
+    width: 270px;
+    margin-top: 20px;
+ 
+    text-align: center;
+}
+.cards{
+    display: inline-block;
+   
+    
+}
+.card_container{
+    text-align: center;
+    
+}
+.center_card{
+    margin: 0px 20px;
+}
+.midspace{
+    
+    background-color: rgba(255, 255, 255, 0.06);
+    margin-top: 50px;
+}
+.location_area{
+    color: white;
+    text-align: center;
+
+}
+.location_area>p{
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0px;
+    font-size: 20px;
+}
+.location_area>h1{
+    font-family: futurak;
+    letter-spacing: 2px;
+    padding-top: 50px;
+
+    font-size: 50px;
+   
+   
+}
+.location_area>h2{
+    font-family: butler;
+    font-size: 50px;
+    margin: 10px;
+    letter-spacing: 1px;
+    padding: 0px;
+}
+.islamabad_location>p{
+    color: red;
+    letter-spacing: 5px;
+    padding-bottom: 0%;
+    
+}
+.islamabad>h3{
+    color: white;
+    font-size: 30px;
+
+}
+.islamabad>h3>span{
+    color:white ;
+    font-family: futurak;
+}
+.islamabad>p{
+    color: rgba(255, 255, 255, 0.7);
+
+}
+.islamabad{
+    margin: 50px 90px;
+    width: 100%;
+   
+    
+
+    
+}
+.btn_area>button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 30px;
+    border-radius: 35px;
+    margin-left:10px ;
+   
+    
+}
+.btn_area>button>i{
+    background-color:white;
+    color: #ed1c24;
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 100px ;
+    
+}
+.btn_area{
+    padding-top: 30px ;
+}
+.location_img{
+   width: 50%;
+ margin-right: 30px;
+ margin-top: 20px;
+padding: 50px 100px; 
+    
+}
+.islmain{
+    width: 100%;
+    display: flex;
+    
+}
+.franchises_top{
+    background-color: black;
+    
+    text-align: center;
+    height: 200px;
+    padding-top: 50px;
+  
+}
+
+.franchises_top>h1{
+    font-family: futurak;
+    color: white;
+    font-size: 52px;
+    letter-spacing: 3px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 0px;
+   
+  
+ 
+}
+.franchises_top>h2{
+    font-family: butler;
+    color: white;
+    font-size: 48px;
+    letter-spacing: 3px;
+    margin-top: 0%;
+
+  
+   
+}
+.Express_card{
+    background-color: black;
+
+    
+    width: 100%;
+   display: flex;
+    
+    
+  
+    
+   
+
+}
+.franchise_card{
+    margin-top: 10px;
+    /* margin-left: 30px; */
+    padding-bottom: 50px;
+   
+    text-align: center;
+    
+}
+
+.franchise_card>img{
+   width: 350px;
+   height: 250px;
+
+  
+
+}
+.mall_name>p{
+    color: red;
+    letter-spacing: 5px;
+   
+    
+    
+
+}
+.first_floor>h3>span{
+    color: white;
+    font-family: futurak;
+    letter-spacing: 2px;
+    font-size: 24px;
+   
+}
+.first_floor>h3{
+    color: white;
+    font-size: 24px;
+}
+.first_floor>p{
+    color: rgba(255, 255, 255, 0.7);
+    
+}
+.btn_express>button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 30px;
+    border-radius: 35px;
+    
+
+}
+.btn_express>button>i{
+    background-color:white;
+    color: #ed1c24;
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 100px ;
+}
+.cntr_card{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.frist_card{
+    margin-left: 100px;
+}
+.first_location{
+    background-color: white;
+    width: 300px;
+    height: 180px;
+    text-align: center;
+    border-radius: 4px;
+    padding: 25px 24px;
+  
+    
+}
+.first_location>small{
+    color:red;
+    letter-spacing: 0.48em;
+    font-size: 10px;
+    
+}
+.first_location>h4{
+    font-size: 21px;
+    margin: 1%;
+}
+.first_location>h4>span{
+    font-size: 24px;
+    margin: 0%;
+}
+.first_location>p{
+    font-size: 21px;
+    margin: 0%;
+
+}
+.location_cards{
+
+ display: flex;
+ text-align: center;
+ margin: 20px;
+ 
+
+}
+.crdfirst{
+    margin-left: 120px;
+}
+.crdtwo{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.upcoming_frenchise{
+    width: 100%;
+    background-color: black;
+
+
+}
+.social_feed{
+    width: 100%;
+   
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-family: butler;
+    font-weight: 500;
+    padding-bottom: 10px;
+   
+}
+.social_img{
+    background-color: black;
+   display: flex;
+   text-align: center;
+}
+.social_logo>img{
+    width: 250px ;
+    height: 250px;
+ 
+  
+
+}
+.social_logo{
+    margin: 0px 10px;
+}
+.bottom{
+    padding: 30px;
+    background-color: black;
+   /* background-image: url(logo/s_logo_back.webp);
+   background-repeat: no-repeat; */
+   
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+  
+   
+
+}
+.s_logo{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.s_logo>img{
+width: 140px;
+height: 640x;
+
+    
+    
+}
+.discription>p{
+    color: rgba(255, 255, 255, 0.7);
+    width: 250px;
+
+}
+.site_link>h3{
+    color: white;
+
+}
+.site_link>p{
+    color: rgba(255, 255, 255, 0.7);
+}
+.site_link{
+    width: 240px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Contact_Us>h3{
+    color:white;
+
+}
+.Contact_Us>p{
+    color: rgba(255, 255, 255, 0.7);
+}
+.Contact_Us{
+    width: 240px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Follow_Us{
+    width: 240px;
+    margin-left: 50px;
+    /* margin-right: 10px; */
+}
+.Follow_Us>h3{
+    color:white;
+
+}
+.Follow_Us>i{
+    background-color: #ed1c24;
+    border-radius: 50%;
+    color: white;
+   width: 40px;
+   height: 40px;
+   
+   /* text-align: center; */
+   /* padding: 8px 4px;
+   */
+ 
+   
+
+
+}
+.Follow_Us>img{
+    padding: 10px 10px;
+}
+/* .center{
+   align-items: center;
+
+
+} */
+.last{
+    background-color:black;
+    color: rgba(255, 255, 255, 0.6);
+}
+.last{
+width: 100%;    
+}
+.last>span{
+    display: flex;
+}
